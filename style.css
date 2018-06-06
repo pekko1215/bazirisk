@@ -1,16 +1,16 @@
 .char{
-	width:200px;
-	height:200px;
+	width:12.5vw;
+	height:12.5vw;
 }
 .half{
-	width:100px;
-	height:200px;
+	width:6.25vw;
+	height:12.5vw;
 }
 
 .small{
-	margin-top:100px;
-	width:100px;
-	height:100px;
+	width:6.25vw;
+	margin-top:6.25vw;
+	height:6.25vw;
 }
 
 #out{

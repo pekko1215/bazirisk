@@ -22,6 +22,9 @@ $input.addEventListener('keyup',()=>{
 				e.src = 'image/半濁点.png'
 				e.classList.add('half')
 				break
+			case '\n':
+				$out.appendChild(document.createElement('br'));
+				return;
 			default:
 				e.classList.add('char')
 				var idx = small.findIndex((f)=>f==t)
