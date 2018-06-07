@@ -45,7 +45,9 @@ $create.addEventListener('click',()=>{
 		[...$outimage.childNodes].forEach(e=>{
 			$outimage.removeChild(e)
 		})
-		$outimage.appendChild(canvas);
+		var $img = document.createElement('img');
+		$img.src = canvas.toDataURL();
+		$outimage.appendChild($img);
 		$create.disabled = false;
 	});
 })
